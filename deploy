@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll build && rsync -avz -e ssh /Users/jkw/workspaces/kehasahko-fi-jekyll/_site/* jkw@midgar.jannewaren.fi:/var/www/kehasahko.fi/public_html
